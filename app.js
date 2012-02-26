@@ -5,7 +5,6 @@
 var express = require('express');
 var ArticleProvider = require('./articleprovider-mongodb').ArticleProvider;
 
-
 var app = module.exports = express.createServer();
 
 // Configuration
